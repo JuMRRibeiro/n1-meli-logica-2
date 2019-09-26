@@ -7,35 +7,35 @@ let resultado;
 
 switch (operacao) {
     case "+":
-       resultado = soma(valor1,valor2);
+        resultado = soma(valor1, valor2);
         break;
-        case "-":
-       resultado = subtrair(valor1,valor2);
+    case "-":
+        resultado = subtrair(valor1, valor2);
         break;
-        case "*":
-       resultado = multiplicar(valor1,valor2);
+    case "*":
+        resultado = multiplicar(valor1, valor2);
         break;
-        case "/":
-       resultado = dividir(valor1,valor2);
+    case "/":
+        resultado = dividir(valor1, valor2);
         break;
 }
 console.log(resultado)
 
-function soma (valor1,valor2){
-return valor1+valor2;
+function soma(valor1, valor2) {
+    return valor1 + valor2;
 
 
 }
-function subtrair (valor1,valor2){
-    return valor1-valor2;
-    
-    }
-function multiplicar (valor1,valor2){
-    return valor1*valor2;
-    
-    }
+function subtrair(valor1, valor2) {
+    return valor1 - valor2;
 
-    function dividir (valor1,valor2){
-        return valor1/valor2;
-        
-        }
+}
+function multiplicar(valor1, valor2) {
+    return valor1 * valor2;
+
+}
+
+function dividir(valor1, valor2) {
+    return valor1 / valor2;
+
+}
