@@ -22,6 +22,7 @@ const r = require("readline-sync");
 - Você pode concatenar uma string usando: + ou +=
 */
 
+
 // let numeroDigitado = parseInt(r.question("Informe a quantidad de estrelas que você deseja gerar"));
 // let estrelas = "";
 
